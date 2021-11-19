@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    border:none;
+}
+
+table td{
+    border: 1px solid black;
+}
+
+table tr:first-child td {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr td:first-child {
+    border-left: none;
+}
+
+table tr td:last-child {
+    border-right: none;
+}
+
+.arrow{
+    color:#607435;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#clock{
+    color : #622624;
+    font-family: "Calibri";
+    font-size: 48px;
+    font-weight: bold;
+}
+.cell {
+    font-size: 60px;
+    width:100px;
+    height:100px;
+}
+
+.score{
+    font-family: "Calibri";
+    font-size: 24px;
+    font-weight: bold;
+}
