@@ -85,12 +85,12 @@ function cellClick(e) {
         target.innerText = playerSign[currentPlayer];
         board[x][y] = playerSign[currentPlayer];
         nbTurn++;
-        if (isBoardFull()){
-            resetGame();
-            return;
-        }else if (hasWon()){
+        if (hasWon()){
             scores[currentPlayer]+=1;
             updateScores();
+            resetGame();
+            return;
+        }else if (isBoardFull()){
             resetGame();
             return;
         }
